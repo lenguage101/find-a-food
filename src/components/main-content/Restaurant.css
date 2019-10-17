@@ -1,0 +1,39 @@
+.restaurantList {
+	color: #fafafa;
+	padding-left: 15px;
+	border-bottom: 1.5px solid #fafafa;
+}
+
+.restaurantInfo {
+	font-weight: bold;
+}
+.addReviewForm {
+	text-align: center;
+	padding-top: 5px;
+}
+textarea {
+	width: 200px;
+	height: 125px;
+}
+.submitComment {
+	padding-top: 10px;
+}
+.addReviewContainer {
+	text-align: center;
+	padding: 10px 0;
+}
+@media only screen and (min-width: 480px) {
+   textarea {
+   		width: 250px;
+   }
+}
+@media only screen and (min-width: 768px) {
+   textarea {
+   		width: 175px;
+   }
+}
+@media only screen and (min-width: 1024px) {
+   textarea {
+   		width: 225px;
+   }
+}

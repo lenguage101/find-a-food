@@ -1,0 +1,24 @@
+.toolBar {
+	background-color: #ab47bc !important;
+}
+.containerDiv {
+	text-align: center;
+	padding: 30px 0;
+	font-family: "Courgette", cursive;
+	width: 100%
+}
+@media only screen and (min-width: 480px) {
+  .heading {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .heading {
+    font-size: 3em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+   .heading {
+	 font-size: 3.5em;
+   }
+}

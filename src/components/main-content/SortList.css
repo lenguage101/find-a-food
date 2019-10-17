@@ -1,0 +1,11 @@
+.listItemContainer {
+	text-align: center;
+	padding: 15px 0;
+}
+#dropdownTitle {
+	color: #eeeddd;
+}
+#dropdown {
+	font-size: 1em;
+	padding: 5px 0;
+}
