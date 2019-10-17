@@ -1,10 +1,12 @@
 # Find-A-Food
 
+## Desktop Version
 <img src="images/desktop.JPG" alt="desktop version" /> <br />
 
+## Mobile Version
 <img src="images/mobile.JPG" alt="mobile version" />
 
-# Purpose of the Project
+## Purpose of the Project
 
 There will be 2 main sections: <br />
 
