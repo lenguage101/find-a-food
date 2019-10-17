@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Find-A-Food
 
-## Available Scripts
+<img src="images/desktop.JPG" alt="desktop version" /> <br />
 
-In the project directory, you can run:
+<img src="images/mobile.JPG" alt="mobile version" />
 
-### `npm start`
+# Purpose of the Project
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+There will be 2 main sections: <br />
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+A Google Maps map will created using the the Google Maps API will located on the left for larger screen sizes<br />
+and for smaller screen sizes, it will located on the top. <br />
 
-### `npm test`
+There will be a list of restaurants will be located right side on for larger screen sizes <br />
+and for smaller screen size, it will located below the map. <br />
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features of the Project
 
-### `npm run build`
+The Google Maps map will focus immediately on the position of the user. <br />
+A specific color marker should be shown at the user's current location. <br />
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Data will be drawn from the Google Places API <br />
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Restaurants will be displayed on the map according to their GPS coordinates. <br />
+Restaurants that are currently visible on the map should be displayed in list form on the side of the map as mentioned above. <br />
+You will see the average reviews of each restaurant (ranging from 1 to 5 stars). <br />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clicking on a restaurant will provide a list of reviews and comments as well as the corresponding picture of the restaurant (if it is available) using the Google Street View API. <br />
 
-### `npm run eject`
+A filter tool allows the display of restaurants that have between 0 and 5 stars and vice versa. <br /> 
+The map will display accurately to the corresponding restaurants. <br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Once a review or restaurant has been added, it should appear immediately on the map. A new marker will show the position of the new restaurant. <br />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The information will only be saved for the duration of the visit <br />
